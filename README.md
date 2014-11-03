@@ -2,7 +2,7 @@
 
 Application PHP de conversion de fiche de métadonées géographiques au format Excel (XLS et XLSX) en XML (conforme ISO-19139/INSPIRE) et inversement.
 
-Cette application est développée dans le cadre du partenariat [CIGAL][1] etes est en lien avec les travaux du [groupe métadonnées][2].
+Cette application est développée dans le cadre du partenariat [CIGAL][1], en lien avec les travaux du [groupe métadonnées][2].
 
 *La branche "master" est la branche de développement.*
 
