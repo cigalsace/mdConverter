@@ -1,0 +1,94 @@
+################
+# MD-CONVERTER #
+################
+
+Présentation:
+    MD Converter est une application web (PHP) qui permet 
+        - De convertir des fichiers de métadonnées géographioques XML (norme 19139 / Inspire) en XLSX selon un template de mise en forme établit dans le cadre du partenariat CIGAL (www.cigalsace.org).
+        - De convertir des fichiers en XLSX respectant un template de mise en forme établit dans le cadre du partenariat CIGAL (www.cigalsace.org) en fichier de métadonnées géographioques XML (norme 19139 / Inspire).
+    
+    Elle s'appuie sur:
+        - PHP (framework CodeIgniter)
+        - PHP Excel (classes pour lire et écrire des fichiers au format Excel)
+
+    Todo:
+
+A faire:
+	- Tester version 0.11 intégrant Codeigniter 2.2.0 et PHPExcel 1.8.0
+
+    
+History:
+
+================
+ Version 0.11:
+================
+08/10/14:
+	- Création de la version 0.11
+	- Mise à jour de Codeigniter vers la version 2.02 (à tester!)
+	- Mise à jour de PHPExcel vers la version 1.8.0 (à tester!)
+	- Suppression de la langue définie à 'fr' (traduction de la V.2.2.0 à ajouter avant de réactiver le français).
+	- Ajout de la directive "date_default_timezone_set('Europe/Paris');" au début du fichier mdc_config.php pour la gestion des dates en PHP 5.3
+
+================
+ Version 0.10:
+================
+07/10/14:
+	- Création de la version 0.10
+	- Ajout de la gestion des champs "Data_UseConstraints" nécessaires avec la version 1.24 du fichier Excel pour pouvoir renseigner les données en licence ouverte (open data)
+	- Correction d'erreurs concernant la gestion des documents associés si absents
+
+================
+ Version 0.09:
+================
+21/05/14:
+    - Création de la version 0.09 
+    - XML to XLSX : correction de la récupération et affichage de la valeur de data_keyword_thesaurusdatepublication, data_keyword_thesaurusdatecreation et data_keyword_thesaurusdaterevision
+    - XML to XLSX : correction de la récupération et affichage de la valeur de data_linkage_protocole et data_linkage_name et jout de la gestion des protocoles: MAP:PDF, MAP:JPEG, MAP:PNG et DATA:ZIP
+    - XML to XLSX : correction de temporal_extents (ordre des valeurs)
+    - XLS to XML: Correction d'une erreur concernant gestiond es protocoles MAP:PDF, MAP:JPEG, MAP:PNG et DATA:ZIP et génération du XML
+
+================
+ Version 0.08b:
+================
+07/05/14:
+    - Création de la version 0.08  
+    - XLS to XML: Correction balise </CI_DATE> en trop
+    - XLS to XML: Remplacement de getValue() par get CalculatedValue() pour prendre en compte le résultat des formules si nécessaire.
+    - XLS to XML: Ajout de la gestion des protocoles: MAP:PDF, MAP:JPEG, MAP:PNG et DATA:ZIP
+    - XLS to XML: Gestion des fichiers Excel quelque soit le nommage des feuilles Excel (parcourir le nom de cellule sur l'ensemble des feuilles).
+
+===============
+ Version 0.06:
+===============
+06/06/13:
+    - Création de la version 0.06
+    
+===============
+ Version 0.05:
+===============
+05/06/13:
+    - Mise à jour de PHPExcel vers la version 1.7.9
+
+04/06/13:
+    - Création de MDConverter 0.05 à partir des scripts existants 
+    - Intégration de MDConverter dans CodeIgniter 2.1.3
+
+
+Todo:
+    - MdConverter - xls2xml_helper: Reprendre ensemble du script de génération du fichier XML
+    - MdConverter - xml2xls_helper: Reprendre script de traitement des InspireConformity
+    - MdConverter: reprendre et simplifier la structuration des fichiers (notamment éléments de configuration et codelist pour xls2xml et xml2xls)
+
+    
+Problèmes connus:
+    - Impression des fichiers XLSX: la fonction "Aperçu avant impression" fait planter Excel.
+    Solution: 
+        > Ouvrir le fichier XLSX
+        > Faire "Enregistrer sous"
+        > Ecraser le fichier existant
+        > Fermer puis réouvrir le fichier
+        > "Aperçu avant impression" fonctionne
+        
+    - Passer du format XLS au format XLSX
+    Solution:
+        > Convertir tous les fichiers XLS en XML et générer les fichiers XLSX à partir du XLS

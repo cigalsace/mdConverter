@@ -1,0 +1,58 @@
+
+body {
+    font-size: .9em;
+    font-family: Arial, Verdana, Sans-serif;
+    margin: 20px;
+}
+
+a {
+    color: #000;
+}
+/*
+input, select {
+    border: 1px solid #ccc;
+}
+*/
+
+#header {
+    margin: 5px 0 15px 0;
+    width: 100%;
+}
+#header h1 {
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    font-size: 2em;
+    font-weight: normal;
+    width: 80%;
+}
+#footer {
+    font-size: .8em;
+    font-style: italic;
+    width: 99%;
+    margin: 10px 5px 5px 5px;
+    float: left;
+}
+#footer p.stats {
+    float: left;
+    width: 40%;
+}
+#footer p.credits {
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+
+#container {width:1200; margin:0 auto; }
+#wrap {overflow:auto;}
+#body {float:left; width:780px;}
+#help {margin-left:800px; border:solid 1px #ccc; padding: 5px; height: 680px;}
+table {border:solid 1px #ccc; border-collapse:collapse; width: 95%;}
+td, th {border:solid 1px #ccc;}
+th {font-weight: bold;}
+form { margin: 0 0 0 20px; width: 90%;}
+.label { display: block; }
+span.bt_logs {
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+}

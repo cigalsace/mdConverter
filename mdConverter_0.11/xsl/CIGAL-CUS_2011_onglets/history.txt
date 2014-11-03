@@ -1,0 +1,72 @@
+﻿XSL CIGAL CI-IDA
+
+======
+ TODO
+======
+    EVOLUTIONS:
+    - Supprimer les valeurs "Non renseigné". A remplacer par un espace vide ou un tiret "-".
+    - Afficher le logo du propriétaire de la données (PointOfContact\*\Role="owner") en haut de la fiche.
+        
+    BUGS:
+    - Redimentionnement des imagettes ne semble pas fonctionner... 
+    
+    A ETUDIER : 
+    - Réorganisation du XSL et de la mise en page de certains champs (emprise, conformité, etc.).
+    - Affichage du logo des contacts dans les tableaux de contact s'ils existent.
+    
+==============
+ Version 0.6
+==============
+12/12/12
+    - Ajout du logo du propriétaire ou du gestionnaire de la donnée s'ils existent.
+    
+==============
+ Version 0.5
+==============
+18/10/12
+    - Mise à jour de jquery 1.7.1 vers la version 1.8.2
+    - Mise à jour de jquery.ui 1.8.18 vers la version 1.9.0
+    - Mise à jour de jquery.datatables vers la version 1.9.4
+    - Mise à jour de jquery.form vers la version 3.18    
+    
+12/09/2012
+    - Création de la version 0.5 du XSL CIGAL.
+    - Adaptation du XSL CIGAL à la version 1.18 du fichier Excel (Elexire).
+
+==============
+ Version 0.4
+==============
+27/06/2012
+    - Adaptation css pour IE.
+
+==============
+ Version 0.3
+==============
+27/06/2012
+    - Adaptation code pour afficher logo si document associé au nom "logo" est présent dans la fiche.
+    - Concaténation des champs textuels relatifs à la qualité des données.
+    
+================
+ Version 0.2.01
+================
+10/03/2012
+    - Adaptation des tableaux.
+    - Correction de bugs mineurs.
+    
+==============
+ Version 0.2
+==============
+09/03/2012
+    - Evolution de la mise en page.
+    - Ajout de la possibilité via js de disposer d'une verison imprimable.
+    - Ajout de l'ensemble des champs du profil CIGAL.
+    - Adaptation de certains affichage.
+    - Correction de bugs mineurs.
+    - Ajout du KeywordTypeCode.
+    
+==============
+ Version 0.1
+==============
+08/03/2012
+    - Version 0.1 de ce format élaboré à partir des travaux de la CUS et du format "XSL-CIGAL_0.4_120305".
+        

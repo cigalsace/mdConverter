@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CIGAL-CUS_2011_onglets.xsl" type="text/xsl" ?>
+<gmd:MD_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink">
+<gmd:fileIdentifier><gco:CharacterString>705547511-533424019-579518616</gco:CharacterString></gmd:fileIdentifier>
+<gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre">fre</gmd:LanguageCode></gmd:language>
+<gmd:characterSet><gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode></gmd:characterSet>
+<gmd:hierarchyLevel><gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode></gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>Konrad ROLLAND</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>SIRS</gco:CharacterString></gmd:organisationName>
+<gmd:positionName><gco:CharacterString>Ingénieur SIG - Chef de Projet</gco:CharacterString></gmd:positionName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>+33(3)20725364</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>27, rue du carrousel - Parc de la Cimaise</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>VILLENEUVE-D'ASCQ</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>59650</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>konrad.rolland@sirs-fr.com</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>Sacha WEBER</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>Région Alsace</gco:CharacterString></gmd:organisationName>
+<gmd:positionName><gco:CharacterString>Chargé de mission SIG</gco:CharacterString></gmd:positionName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>03 88 15 65 34</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>1, place Adrien ZELLER</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>STRASBOURG</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>67070</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>sacha.weber@region-alsace.eu</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp><gco:Date>2011-05-12</gco:Date></gmd:dateStamp>
+<gmd:metadataStandardName><gco:CharacterString>ISO 19115/19139</gco:CharacterString></gmd:metadataStandardName>
+<gmd:metadataStandardVersion><gco:CharacterString>1.0</gco:CharacterString></gmd:metadataStandardVersion>
+<gmd:referenceSystemInfo><gmd:MD_ReferenceSystem>
+<gmd:referenceSystemIdentifier><gmd:RS_Identifier>
+<gmd:code><gco:CharacterString>Lambert 93 CC48 (Zone 7) - EPSG 3948</gco:CharacterString></gmd:code>
+</gmd:RS_Identifier></gmd:referenceSystemIdentifier>
+</gmd:MD_ReferenceSystem></gmd:referenceSystemInfo>
+<gmd:identificationInfo><gmd:MD_DataIdentification>
+<gmd:citation><gmd:CI_Citation>
+<gmd:title><gco:CharacterString>Base de données Occupation du sol CIGAL en 2008</gco:CharacterString></gmd:title>
+<gmd:date><gmd:CI_Date>
+<gmd:date><gco:Date>2011-05-12</gco:Date></gmd:date>
+<gmd:dateType><gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode></gmd:dateType>
+</gmd:CI_Date></gmd:date>
+<gmd:identifier><gmd:RS_Identifier>
+<gmd:code><gco:CharacterString>705547511-533424019-579518616</gco:CharacterString></gmd:code>
+<gmd:codeSpace><gco:CharacterString>MD_URI</gco:CharacterString></gmd:codeSpace>
+</gmd:RS_Identifier></gmd:identifier>
+<gmd:identifier><gmd:RS_Identifier>
+<gmd:code><gco:CharacterString>BdOCS2008-CIGAL</gco:CharacterString></gmd:code>
+<gmd:codeSpace><gco:CharacterString>CIGAL</gco:CharacterString></gmd:codeSpace>
+</gmd:RS_Identifier></gmd:identifier>
+</gmd:CI_Citation></gmd:citation>
+<gmd:abstract><gco:CharacterString>La base de données géographiques de l'occupation du sol 2008 a été réalisée par photo-interprétation de la BD Ortho IGN (une couverture de 2007 sur la Région Alsace, une couverture de 2004 sur le Parc des Vosges du Nord et une de 2001 à 2003 sur le Parc des Ballons des Vosges) et d’images SPOT5 (deux couvertures complètes, l’une datant de sept/oct 2007 et l’autre de mars/mai 2008) sur l'ensemble du territoire de la Coopération pour l’Information Géographique en Alsace (Région Alsace, Parc Naturel Régional des Vosges du nord et Parc Naturel Régional des Ballons des Vosges). Ce lot de données a été produit pour permettre une exploitation optimale à l'échelle 1/10 000.
+L'aire d'étude représente au total une superficie de 10 842 km² environ.</gco:CharacterString></gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>Konrad ROLLAND</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>SIRS</gco:CharacterString></gmd:organisationName>
+<gmd:positionName><gco:CharacterString>Ingénieur SIG - Chef de Projet</gco:CharacterString></gmd:positionName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>+33(3)20725364</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>27, rue du carrousel - Parc de la Cimaise</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>VILLENEUVE-D'ASCQ</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>59650</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>konrad.rolland@sirs-fr.com</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>Sacha WEBER</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>Région Alsace</gco:CharacterString></gmd:organisationName>
+<gmd:positionName><gco:CharacterString>Chargé de mission SIG</gco:CharacterString></gmd:positionName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>03 88 15 65 34</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>1, place Adrien ZELLER</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>STRASBOURG</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>67070</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>sacha.weber@region-alsace.eu</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString> Aménagement du territoire</gco:CharacterString></gmd:keyword>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Occupation du sol</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString></gco:CharacterString></gmd:title>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Environnement</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString></gco:CharacterString></gmd:title>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Parc Naturel Régional des Ballons des Vosges</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString></gco:CharacterString></gmd:title>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Parc Naturel Régional des Vosges du Nord</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString></gco:CharacterString></gmd:title>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Alsace</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString></gco:CharacterString></gmd:title>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Haut-Rhin</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString></gco:CharacterString></gmd:title>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Bas-Rhin</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString></gco:CharacterString></gmd:title>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Land cover</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString></gmd:title>
+<gmd:date><gmd:CI_Date>
+<gmd:date><gco:Date>2008-06-01</gco:Date></gmd:date>
+<gmd:dateType><gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode></gmd:dateType>
+</gmd:CI_Date></gmd:date>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Soil</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString></gmd:title>
+<gmd:date><gmd:CI_Date>
+<gmd:date><gco:Date>2008-06-01</gco:Date></gmd:date>
+<gmd:dateType><gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode></gmd:dateType>
+</gmd:CI_Date></gmd:date>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:resourceConstraints><gmd:MD_Constraints>
+<gmd:useLimitation><gco:CharacterString>Se référer au guide utilisateur de la BdOCS2008-CIGAL.</gco:CharacterString></gmd:useLimitation>
+</gmd:MD_Constraints></gmd:resourceConstraints>
+<gmd:resourceConstraints><gmd:MD_LegalConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:useConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+</gmd:useConstraints>
+<gmd:otherConstraints><gco:CharacterString>Utilisation possible pour les autorités publiques alsaciennes après adhésion au partenariat de Coopération pour l'Information Géographique en Alsace (CIGAL - www.cigalsace.org).</gco:CharacterString></gmd:otherConstraints>
+</gmd:MD_LegalConstraints></gmd:resourceConstraints>
+<gmd:resourceConstraints><gmd:MD_SecurityConstraints><gmd:classification>
+<gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="restricted">restricted</gmd:MD_ClassificationCode>
+</gmd:classification></gmd:MD_SecurityConstraints></gmd:resourceConstraints>
+<gmd:spatialRepresentationType>
+<gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+</gmd:spatialRepresentationType>
+<gmd:spatialResolution><gmd:MD_Resolution>
+<gmd:equivalentScale><gmd:MD_RepresentativeFraction>
+<gmd:denominator><gco:Integer>10000</gco:Integer></gmd:denominator>
+</gmd:MD_RepresentativeFraction></gmd:equivalentScale>
+</gmd:MD_Resolution></gmd:spatialResolution>
+<gmd:language>
+<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre">fre</gmd:LanguageCode>
+</gmd:language>
+<gmd:characterSet><gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode></gmd:characterSet>
+<gmd:topicCategory><gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode></gmd:topicCategory>
+<gmd:topicCategory><gmd:MD_TopicCategoryCode>planningCadastre</gmd:MD_TopicCategoryCode></gmd:topicCategory>
+<gmd:extent><gmd:EX_Extent>
+<gmd:description><gco:CharacterString>Alsace</gco:CharacterString></gmd:description>
+<gmd:geographicElement><gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude><gco:Decimal>6.84</gco:Decimal></gmd:westBoundLongitude>
+<gmd:eastBoundLongitude><gco:Decimal>8.23</gco:Decimal></gmd:eastBoundLongitude>
+<gmd:southBoundLatitude><gco:Decimal>47.42</gco:Decimal></gmd:southBoundLatitude>
+<gmd:northBoundLatitude><gco:Decimal>49.08</gco:Decimal></gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox></gmd:geographicElement>
+</gmd:EX_Extent></gmd:extent>
+<gmd:extent><gmd:EX_Extent>
+<gmd:description><gco:CharacterString>Parc Naturel Régional des Ballons des Vosges</gco:CharacterString></gmd:description>
+<gmd:geographicElement><gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude><gco:Decimal>0.0</gco:Decimal></gmd:westBoundLongitude>
+<gmd:eastBoundLongitude><gco:Decimal>0.0</gco:Decimal></gmd:eastBoundLongitude>
+<gmd:southBoundLatitude><gco:Decimal>0.0</gco:Decimal></gmd:southBoundLatitude>
+<gmd:northBoundLatitude><gco:Decimal>0.0</gco:Decimal></gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox></gmd:geographicElement>
+</gmd:EX_Extent></gmd:extent>
+<gmd:extent><gmd:EX_Extent>
+<gmd:description><gco:CharacterString>Parc Naturel Régional des Vosges du Nord</gco:CharacterString></gmd:description>
+<gmd:geographicElement><gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude><gco:Decimal>0.0</gco:Decimal></gmd:westBoundLongitude>
+<gmd:eastBoundLongitude><gco:Decimal>0.0</gco:Decimal></gmd:eastBoundLongitude>
+<gmd:southBoundLatitude><gco:Decimal>0.0</gco:Decimal></gmd:southBoundLatitude>
+<gmd:northBoundLatitude><gco:Decimal>0.0</gco:Decimal></gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox></gmd:geographicElement>
+</gmd:EX_Extent></gmd:extent>
+<gmd:extent><gmd:EX_Extent>
+<gmd:temporalElement><gmd:EX_TemporalExtent>
+<gmd:extent><gml:TimePeriod xsi:type="gml:TimePeriodType">
+<gml:beginPosition>2007-10-01</gml:beginPosition>
+<gml:endPosition>2008-03-01</gml:endPosition>
+</gml:TimePeriod></gmd:extent>
+</gmd:EX_TemporalExtent></gmd:temporalElement>
+</gmd:EX_Extent></gmd:extent>
+</gmd:MD_DataIdentification></gmd:identificationInfo>
+<gmd:distributionInfo><gmd:MD_Distribution>
+<gmd:distributionFormat><gmd:MD_Format>
+<gmd:name><gco:CharacterString>SHP</gco:CharacterString></gmd:name>
+<gmd:version><gco:CharacterString>1.0</gco:CharacterString></gmd:version>
+<gmd:specification><gco:CharacterString>Fichier de formes ESRI (shapefile)</gco:CharacterString></gmd:specification>
+</gmd:MD_Format></gmd:distributionFormat>
+<gmd:distributionFormat><gmd:MD_Format>
+<gmd:name><gco:CharacterString>TAB</gco:CharacterString></gmd:name>
+<gmd:version><gco:CharacterString>1.0</gco:CharacterString></gmd:version>
+<gmd:specification><gco:CharacterString>Fichier MapInfo</gco:CharacterString></gmd:specification>
+</gmd:MD_Format></gmd:distributionFormat>
+<gmd:transferOptions><gmd:MD_DigitalTransferOptions>
+<gmd:onLine><gmd:CI_OnlineResource>
+<gmd:linkage><gmd:URL>http://www.cigalsace.org/content/rapport-m%C3%A9thodologique-bdocs-2008-cigal</gmd:URL></gmd:linkage>
+<gmd:name><gco:CharacterString>Rapport méthodologique de production de la BdOCS2008-CIGAL</gco:CharacterString></gmd:name>
+<gmd:description><gco:CharacterString>Description de la méthodologie d'élaboration de la base de données d'Occupation du Sol 2008 CIGAL (BdOCS2008-CIGAL).</gco:CharacterString></gmd:description>
+</gmd:CI_OnlineResource></gmd:onLine>
+<gmd:onLine><gmd:CI_OnlineResource>
+<gmd:linkage><gmd:URL>http://www.cigalsace.org/content/guide-utilisateur-bdocs-2008-cigal</gmd:URL></gmd:linkage>
+<gmd:name><gco:CharacterString>Guide utilisateur BdOCS2008-CIGAL</gco:CharacterString></gmd:name>
+<gmd:description><gco:CharacterString>Document qui précise les règles et précautions d'utilisation de la BdOCS2008-CIGAL.</gco:CharacterString></gmd:description>
+</gmd:CI_OnlineResource></gmd:onLine>
+<gmd:onLine><gmd:CI_OnlineResource>
+<gmd:linkage><gmd:URL>http://www.cigalsace.org/content/guide-utilisateur-annexe-bdocs-2008-cigal</gmd:URL></gmd:linkage>
+<gmd:name><gco:CharacterString>Annexes au guide utilisateur BdOCS2008-CIGAL</gco:CharacterString></gmd:name>
+<gmd:description><gco:CharacterString>Annexes au guide utilisateur de la BdOCS2008-CIGAL: représentation cartographique et nomenclature complète.</gco:CharacterString></gmd:description>
+</gmd:CI_OnlineResource></gmd:onLine>
+<gmd:onLine><gmd:CI_OnlineResource>
+<gmd:linkage><gmd:URL>http://www.cigalsace.org/content/loccupation-du-sol-en-alsace-en-2008-niveau-4</gmd:URL></gmd:linkage>
+<gmd:name><gco:CharacterString>Carte de la BdOCS2008-CIGAL Niveau 4</gco:CharacterString></gmd:name>
+<gmd:description><gco:CharacterString>Représentation cartographique de la BdOCS2008-CIGAL au niveau 4 de la nomenclature (A0 - 1:10 000)</gco:CharacterString></gmd:description>
+</gmd:CI_OnlineResource></gmd:onLine>
+</gmd:MD_DigitalTransferOptions></gmd:transferOptions>
+</gmd:MD_Distribution></gmd:distributionInfo>
+<gmd:resourceMaintenance>
+<gmd:MD_MaintenanceInformation>
+<gmd:maintenanceAndUpdateFrequency>
+<MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknow"/>
+</gmd:maintenanceAndUpdateFrequency>
+</gmd:MD_MaintenanceInformation>
+</gmd:resourceMaintenance>
+<gmd:dataQualityInfo><gmd:DQ_DataQuality>
+<gmd:scope><gmd:DQ_Scope>
+<gmd:level><gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode">dataset</gmd:MD_ScopeCode></gmd:level>
+</gmd:DQ_Scope></gmd:scope>
+<gmd:report><gmd:DQ_DomainConsistency xsi:type="gmd:DQ_DomainConsistency_Type">
+<gmd:measureIdentification>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>Conformity_001</gco:CharacterString>
+</gmd:code>
+<gmd:codeSpace>
+<gco:CharacterString>INSPIRE Conformity</gco:CharacterString>
+</gmd:codeSpace>
+</gmd:RS_Identifier>
+</gmd:measureIdentification>
+<gmd:result><gmd:DQ_ConformanceResult>
+<gmd:specification><gmd:CI_Citation>
+<gmd:title><gco:CharacterString>Conformité aux règles INSPIRE</gco:CharacterString></gmd:title>
+<gmd:date><gmd:CI_Date>
+<gmd:date><gco:Date>2008-06-01</gco:Date></gmd:date>
+<gmd:dateType><gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode></gmd:dateType>
+</gmd:CI_Date></gmd:date>
+</gmd:CI_Citation></gmd:specification>
+<gmd:explanation><gco:CharacterString>Néant</gco:CharacterString></gmd:explanation>
+<gmd:pass></gmd:pass>
+</gmd:DQ_ConformanceResult></gmd:result>
+</gmd:DQ_DomainConsistency></gmd:report>
+<gmd:lineage><gmd:LI_Lineage>
+<gmd:statement><gco:CharacterString>Pour assurer une bonne fiabilité de la BdOCS2008-CIGAL, deux contrôles qualité ont été établis. L’un en interne (CQI) effectué par SIRS, producteur de la base de données, et l’autre en externe (CQE) effectué par un prestataire indépendant.
+Le taux de fiabilité est qualifié dans l’attribut «Fiabilité» de la donnée SIG. Le taux de fiabilité global est de 85 % sur l’ensemble du territoire.</gco:CharacterString></gmd:statement>
+<gmd:processStep><gmd:LI_ProcessStep>
+<gmd:description><gco:CharacterString>La base de données géographiques de l'occupation du sol 2008 a été produite par Photo-Interprétation Assistée par Ordinateur (PIAO), c'est-à-dire directement à l'écran par numérisation des objets de l'occupation du sol sur les différentes BD Ortho IGN à 50 cm composant l’aire d’étude ainsi que sur des images SPOT5 multi-dates de 2007-2008 à 2,5 m de précision, suivant la nomenclature "BD OCS" établie par le partenariat CIGAL. La PIAO s’appuie sur les nombreuses données exogènes préexistantes et mises à disposition. La nomenclature dite emboîtée, de type CORINE Land Cover, comprend 4 niveaux hiérarchiques, comprenant 4 thèmes au niveau général et 55 postes de typologie d'occupation du sol au niveau le plus détaillé. L'échelle de numérisation et d’interprétation est 1/8 500 pour une exploitation recommandée à une échelle inférieure ou égale à 1/10 000. La largeur minimale d’interprétation des objets linéaires est de 12 mètres, en cohérence avec la Base de données des Zones à Dominante Humide (BdZDH2008-CIGAL).
+L'équipe de la société SIRS qui a réalisé ce travail est:
+   > Directeur de projet: Jean-Paul GACHELIN
+   > Chef de projet: Konrad ROLLAND
+   > Chef d’équipe: Thibault VASSE
+   > Responsable qualité et suivi de production: Anne CREPIN</gco:CharacterString></gmd:description>
+</gmd:LI_ProcessStep></gmd:processStep>
+<gmd:source><gmd:LI_Source>
+<gmd:description><gco:CharacterString>Plusieurs données exogènes ont été mises à disposition pour la réalisation de la BdOCS2008-CIGAL en aide à la photo-interprétation. Il s'agit notamment de:
+   > Orthophotographie : BD Ortho (IGN - 2007)
+   > Imagerie spatiale: Images satellitaires SPOT 5 (SPOT Image - 2007 et 2008)
+   > Scan 25 (IGN - 2005)
+   > Modèle numérique de terrain: MNT de la BD Alti et de la BD Topo (IGN - 2005)
+   > Limites administratives et emprises du projet
+   > BdOCS2000, BdZDH2008-CIGAL
+   > Registre Parcellaire Graphique, plans de ville (Strasbourg ...), Habitats Natura 2000, IFN, Zones humides région
+Franche-Comté, données naturalistes sur le PNR VN etc.</gco:CharacterString></gmd:description>
+</gmd:LI_Source></gmd:source>
+</gmd:LI_Lineage></gmd:lineage>
+</gmd:DQ_DataQuality></gmd:dataQualityInfo>
+</gmd:MD_Metadata>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="CIGAL-CUS_2011_onglets.xsl" type="text/xsl" ?>
+<gmd:MD_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd"
+xmlns:gmx="http://www.isotc211.org/2005/gmx"
+xmlns:gmd="http://www.isotc211.org/2005/gmd"
+xmlns:gco="http://www.isotc211.org/2005/gco"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:gml="http://www.opengis.net/gml"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<gmd:language>
+<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
+codeListValue="fre">fre</gmd:LanguageCode>
+</gmd:language>
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"
+codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+</gmd:characterSet>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>Konrad ROLLAND</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>SIRS</gco:CharacterString></gmd:organisationName>
+<gmd:positionName><gco:CharacterString>Ingénieur SIG - Chef de Projet</gco:CharacterString></gmd:positionName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>+33(3)20725364</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>27, rue du carrousel - Parc de la Cimaise</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>VILLENEUVE-D'ASCQ</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>59650</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>konrad.rolland@sirs-fr.com</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>Sacha WEBER</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>Région Alsace</gco:CharacterString></gmd:organisationName>
+<gmd:positionName><gco:CharacterString>Chargé de mission SIG</gco:CharacterString></gmd:positionName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>03 88 15 65 34</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>1, place Adrien ZELLER</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>STRASBOURG</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>67070</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>sacha.weber@region-alsace.eu</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp><gco:Date>2011-05-12</gco:Date></gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO 19115/19139</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>1.0</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:referenceSystemInfo>
+<gmd:MD_ReferenceSystem>
+<gmd:referenceSystemIdentifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>Lambert 93</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:referenceSystemIdentifier>
+</gmd:MD_ReferenceSystem>
+</gmd:referenceSystemInfo>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>Titre de la donnée 456</gco:CharacterString>
+</gmd:title>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>MD_FicheTest_1</gco:CharacterString>
+</gmd:code>
+<gmd:codeSpace>
+<gco:CharacterString>MD_URI</gco:CharacterString>
+</gmd:codeSpace>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>Résumé décrivant la donnée.</gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>Konrad ROLLAND</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>SIRS</gco:CharacterString></gmd:organisationName>
+<gmd:positionName><gco:CharacterString>Ingénieur SIG - Chef de Projet</gco:CharacterString></gmd:positionName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>+33(3)20725364</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>27, rue du carrousel - Parc de la Cimaise</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>VILLENEUVE-D'ASCQ</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>59650</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>konrad.rolland@sirs-fr.com</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+<gmd:contactInstructions>
+<gmx:FileName src="http://www.aerodata-france.com/images/home/img1.jpg">Logo</gmx:FileName>
+</gmd:contactInstructions>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>Konrad ROLLAND</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>SIRS</gco:CharacterString></gmd:organisationName>
+<gmd:positionName><gco:CharacterString>Ingénieur SIG - Chef de Projet</gco:CharacterString></gmd:positionName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>+33(3)20725364</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>27, rue du carrousel - Parc de la Cimaise</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>VILLENEUVE-D'ASCQ</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>59650</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>konrad.rolland@sirs-fr.com</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+<gmd:contactInstructions>
+<gmx:FileName src="http://www.aerodata-france.com/images/home/img1.jpg">Logo</gmx:FileName>
+</gmd:contactInstructions>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>Sacha WEBER</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>Région Alsace</gco:CharacterString></gmd:organisationName>
+<gmd:positionName><gco:CharacterString>Chargé de mission SIG</gco:CharacterString></gmd:positionName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>03 88 15 65 34</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>1, place Adrien ZELLER</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>STRASBOURG</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>67070</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>sacha.weber@region-alsace.eu</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+<gmd:contactInstructions>
+    <gmx:FileName src="http://www.aerodata-france.com/images/home/img2.jpg">Logo</gmx:FileName>
+</gmd:contactInstructions>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+
+<gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+<gmd:MD_BrowseGraphic>
+<gmd:fileName>
+<gco:CharacterString>./BrowseGraphic.jpg</gco:CharacterString>
+</gmd:fileName>
+<gmd:fileDescription>
+<gco:CharacterString>Description of browsegraphic file.</gco:CharacterString>
+</gmd:fileDescription>
+<gmd:fileType>
+<gco:CharacterString>.jpg</gco:CharacterString>
+</gmd:fileType>
+</gmd:MD_BrowseGraphic>
+</gmd:graphicOverview>
+<gmd:resourceConstraints>
+<gmd:MD_Constraints>
+<gmd:useLimitation>
+<gco:CharacterString>Aucune limite</gco:CharacterString>
+</gmd:useLimitation>
+</gmd:MD_Constraints>
+</gmd:resourceConstraints>
+<gmd:resourceConstraints>
+<gmd:MD_LegalConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:useConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode"
+codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+</gmd:useConstraints>
+<gmd:otherConstraints>
+<gco:CharacterString>Aucune contrainte.</gco:CharacterString>
+</gmd:otherConstraints>
+</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+<gmd:resourceConstraints>
+<gmd:MD_SecurityConstraints>
+<gmd:classification>
+<gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ClassificationCode"
+codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+</gmd:classification>
+</gmd:MD_SecurityConstraints>
+</gmd:resourceConstraints>
+<gmd:spatialRepresentationType>
+<gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode"
+codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+</gmd:spatialRepresentationType>
+<gmd:language>
+<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/"
+codeListValue="fre">fre</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"
+codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+</gmd:characterSet>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+<gmd:distributionInfo>
+<gmd:MD_Distribution>
+<gmd:transferOptions>
+<gmd:MD_DigitalTransferOptions>
+</gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+</gmd:MD_Distribution>
+</gmd:distributionInfo>
+<gmd:resourceMaintenance>
+<gmd:MD_MaintenanceInformation>
+<gmd:maintenanceAndUpdateFrequency>
+<MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+codeListValue="unknow" />
+</gmd:maintenanceAndUpdateFrequency>
+</gmd:MD_MaintenanceInformation>
+</gmd:resourceMaintenance>
+<gmd:dataQualityInfo>
+<gmd:DQ_DataQuality>
+<gmd:scope>
+<gmd:DQ_Scope>
+<gmd:level>
+<gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode">dataset</gmd:MD_ScopeCode>
+</gmd:level>
+</gmd:DQ_Scope>
+</gmd:scope>
+<gmd:report>
+<gmd:DQ_DomainConsistency xsi:type="gmd:DQ_DomainConsistency_Type">
+
+<gmd:measureIdentification>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>Conformity_001</gco:CharacterString>
+</gmd:code>
+<gmd:codeSpace>
+<gco:CharacterString>INSPIRE Conformity</gco:CharacterString>
+</gmd:codeSpace>
+</gmd:RS_Identifier>
+</gmd:measureIdentification>
+<gmd:result>
+<gmd:DQ_ConformanceResult>
+<gmd:specification>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>Conformité aux règles INSPIRE</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2008-06-01</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+codeListValue="creation">creation</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+</gmd:CI_Citation>
+</gmd:specification>
+<gmd:explanation>
+<gco:CharacterString>Néant</gco:CharacterString>
+</gmd:explanation>
+<gmd:pass></gmd:pass>
+</gmd:DQ_ConformanceResult>
+</gmd:result>
+</gmd:DQ_DomainConsistency>
+</gmd:report>
+<gmd:lineage>
+<gmd:LI_Lineage></gmd:LI_Lineage>
+</gmd:lineage>
+</gmd:DQ_DataQuality>
+</gmd:dataQualityInfo>
+</gmd:MD_Metadata>

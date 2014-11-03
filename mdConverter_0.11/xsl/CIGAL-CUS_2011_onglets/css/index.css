@@ -1,0 +1,175 @@
+#page {
+    text-align: left;
+    width: 90%;
+    margin: auto; 
+    font: normal .8em verdana, arial, sans-serif; 
+    /*color:#000;*/
+    vertical-align: top; 
+    clear: both; 
+}
+
+#tabs {
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5 {
+    float: left;
+    width: 96%;
+}
+
+h1 { 
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    float: left;
+    width: 100%;
+}
+h2 {
+    font-size: 1.3em;
+    margin: 50px 0 5px -5px;
+    padding: 5px;
+    width: 100%;
+    float: left;
+}
+#tabs-1 h2 {
+    margin-top: 5px;
+}
+h3 {
+    font-size: 1.1em;
+    margin: 30px 0 5px -5px;
+    padding: 2px 5px 2px 5px;
+    width: 100%;
+    float: left;
+}
+h3 span.ui-icon {
+    float: left; 
+    margin: 0 5px 0 0;
+}
+h4 {
+    font-size: 1.1em;
+    margin: 10px 0 8px 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+pre { 
+    font: normal 1em verdana, arial, sans-serif;
+    padding:0;
+    margin:0;
+}
+div#data_abstract pre {  
+    font-size: 1.1em;
+}
+
+ul {
+    padding-top: 0;
+    margin: 0;
+}
+
+#data_abstract pre, #data_dq_process pre, #data_dq_origin pre, #data_dq_text pre, #data_uselimitation pre, #data_otherconstraints pre { 
+    white-space: pre-line;          /* CSS3 */
+    white-space: -moz-pre-wrap;     /* Mozilla */
+    white-space: -pre-wrap;           /* Opera 4-6 */
+    white-space: -o-pre-wrap;        /* Opera 7 */
+    word-wrap: break-word;           /* IE5.5+ */ 
+}
+
+.type {
+    float: right;
+    font-size: .8em;
+    margin: 0 0 10px 0; 
+    padding: 2px; 
+}
+
+div#printable, div#unprintable  {
+    font-style: italic;
+    font-size: .8em;
+    text-align: right;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#header {
+    float: left;
+    width: 100%;
+}
+
+img#logo {
+    float: left;
+    margin: 10px 10px 20px 10px;
+    width: 100px;
+}
+
+#data_abstract{
+    width: 82%;
+    float: left;
+    margin: 10px 0 20px 10px;
+}
+
+div.value, div.value-line, h4.key-line {
+    float: left;
+}
+div.line {
+    float: left !important;
+}
+div.line {
+    font-size: .9em;
+    margin: 0;
+    width: 100%;
+}
+div.value {
+    width: 96%;
+    float: right;
+    margin: 0 0 10px 0;
+}
+h4.key-line {
+    width: 24%;
+    margin: 5px 0 8px 0;
+}
+div.value-line {
+    margin: 5px 0 8px 0;
+    padding: 0;
+    width: 74%;
+}
+
+#browsegraphic img, #browsegraphic div  { 
+    padding: 2px; 
+    margin: 5px 20px 5px 0; 
+}
+#browsegraphic img  {
+    float: left;
+    cursor: pointer; 
+}
+
+span.label {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 5px 0 8px 0;
+}
+th, td {
+    padding: 2px 0 2px 5px;
+    font-size: 1em !important;
+    font-size: 0.75em;
+}
+td {
+    font-weight: normal;
+}
+
+#footer{
+    float: left;
+	padding: 5px;
+    margin: 10px 0 10px 0;
+	width: 100%;
+	font-size: .8em;
+    font-style: italic;
+	text-align:center;
+}
